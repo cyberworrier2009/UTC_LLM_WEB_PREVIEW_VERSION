@@ -1,0 +1,53 @@
+.sidebar-input-container {
+    height: 100vh;
+    padding: 0;
+    margin: 0;
+  
+    .row {
+      height: 100%;
+      margin: 0;
+    }
+  
+    .sidebar {
+      background-color: #eddddd;
+      color: #fff;
+      padding: 20px 0px;
+      .sidebar-text{
+        height: fit-content !important;
+         .sidebar-button{
+            padding: 0px !important;
+        }
+        .chat-btn{
+            width: 100%;
+    text-align: left;
+        }
+      }
+    }
+  
+    .content {
+      background-color: #f4f4f4;
+      padding: 20px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  
+    .centered-input {
+        width: 90%;
+        display: flex;
+        align-items: center;
+        margin-bottom: 20px;
+        align-self: end;
+  
+      .form-control {
+        margin-right: 10px;
+      }
+  
+      .enter-button {
+        background-color: #007bff;
+        border-color: #007bff;
+        color: #fff;
+      }
+    }
+  }
+  
